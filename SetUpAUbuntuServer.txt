@@ -17,6 +17,37 @@ Lamp + phpmyadmin
 ufw
 -- sudo ufw enable
 -- sudo ufw allow (port)
--- // 80 -> lamp 22->ssh 21->FTP 10000->webmin
+-- // 80 -> lamp 
+-- // 22->ssh 
+-- // 21->FTP 
+-- // 10000->webmin
+
 ssh
+-- // sudo apt-get install openssh-server
+
 Webmin
+-- // wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
+-- // sudo dpkg --install webmin_1.850_all.deb
+
+If you get Error:
+
+Q1.
+    E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem.
+A1.
+    sudo dpkg --configure -a
+
+Q2.
+	dpkg: dependency problems prevent configuration of webmin:
+ 	 webmin depends on libnet-ssleay-perl; however:
+  	  Package libnet-ssleay-perl is not installed.
+ 	 webmin depends on libauthen-pam-perl; however:
+  	  Package libauthen-pam-perl is not installed.
+ 	 webmin depends on libio-pty-perl; however:
+ 	  Package libio-pty-perl is not installed.
+	 webmin depends on apt-show-versions; however:
+	  package apt-show-versions is not installed.
+ 	 webmin depends on python; however:
+  	  Package python is not installed..
+A2.
+   sudo apt install -f
+	
