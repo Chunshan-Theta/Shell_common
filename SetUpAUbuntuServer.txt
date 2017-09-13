@@ -14,6 +14,8 @@ set static Ip
 Lamp + phpmyadmin
 -- sudo apt install lamp-server^
 -- sudo apt install phpmyadmin
+   open permission /var/www/html/
+       -- sudo chmod 777 /var/www/html
 ufw
 -- sudo ufw enable
 -- sudo ufw allow (port)
@@ -23,11 +25,11 @@ ufw
 -- // 10000->webmin
 
 ssh
--- // sudo apt-get install openssh-server
+-- sudo apt-get install openssh-server
 
 Webmin
--- // wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
--- // sudo dpkg --install webmin_1.850_all.deb
+-- wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
+-- sudo dpkg --install webmin_1.850_all.deb
 
 If you get Error:
 
