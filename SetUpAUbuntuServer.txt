@@ -1,0 +1,9 @@
+Lamp + phpmyadmin
+-- sudo apt install lamp-server^
+-- sudo apt install phpmyadmin
+ufw
+-- sudo ufw enable
+-- sudo ufw allow (port)
+-- // 80 -> lamp 22->ssh 21->FTP 10000->webmin
+ssh
+Webmin
