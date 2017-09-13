@@ -1,3 +1,16 @@
+set static Ip
+-- sudo vim /etc/network/interfaces 
+         Before:
+                auto ens000
+                iface ens000 inet dhcp
+         After:
+                auto ens000
+                iface ens000 inet static
+	              address xxx.xxx.xxx.xxx
+	              netmask xxx.xxx.xxx.xxx
+	              gateway xxx.xxx.xxx.xxx
+                dns-nameservers 8.8.8.8
+
 Lamp + phpmyadmin
 -- sudo apt install lamp-server^
 -- sudo apt install phpmyadmin
