@@ -21,6 +21,7 @@ TargetDir=/home/gavin/Desktop/test #Target dir for put file
 
 lftp<<END_SCRIPT
 open sftp://$HOST
+set sftp:auto-confirm yes
 user $USER $PASSWD
 cd $TargetDir
 put all_databases.sql
