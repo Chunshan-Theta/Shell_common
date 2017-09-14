@@ -26,6 +26,7 @@ ufw
 
 ssh
 -- sudo apt-get install openssh-server
+-- sudo apt install lftp
 
 Webmin
 -- wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
