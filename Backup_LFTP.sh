@@ -10,7 +10,7 @@ mysqldump -A > ${ID}all_databases.sql -u USER -pPASSWORD -h localhost
 
 # backup Web File
 # '--exclude' could skip dir you don't want to back up
-sudo tar cvpzf ${ID}backup.tgz /var/www/
+echo "Password" | sudo -S tar cvpzf ${ID}backup.tgz /var/www/
 
 
 HOST=IPADRESS
