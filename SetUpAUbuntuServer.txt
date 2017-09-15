@@ -32,6 +32,17 @@ Webmin
 -- wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
 -- sudo dpkg --install webmin_1.850_all.deb
 
+
+**Desktop version--
+install Google Chrome:
+-- sudo apt-get install libxss1 libappindicator1 libindicator7
+-- wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+-- sudo dpkg -i google-chrome*.deb
+-- sudo apt-get install -f
+
+
+-------
 If you get Error:
 
 Q1.
