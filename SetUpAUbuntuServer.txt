@@ -27,6 +27,7 @@ ufw
 ssh
 -- sudo apt-get install openssh-server
 -- sudo apt install lftp
+	參考:http://www.arthurtoday.com/2010/08/ubuntu-ssh.html
 
 Webmin
 -- wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
