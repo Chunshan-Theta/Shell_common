@@ -15,7 +15,7 @@ Lamp + phpmyadmin
 -- sudo apt install lamp-server^
 -- sudo apt install phpmyadmin
    open permission /var/www/html/
-       -- sudo chmod 777 /var/www/html
+       -- sudo chmod 777 /var/www/html    # 777 權限全開(左為root權限,中間是一般使用者權限(本機端),右為全域使用者) 1 read + 2 write + 4 delete = 7 
 ufw
 -- sudo ufw enable
 -- sudo ufw allow (port)
