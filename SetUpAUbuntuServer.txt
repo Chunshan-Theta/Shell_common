@@ -45,6 +45,7 @@ ssh
 Webmin
 -- wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
 -- sudo dpkg --install webmin_1.850_all.deb
+-- 更改/etc/webmin/miniserv.conf. port=8888
 
 
 **Desktop version--
