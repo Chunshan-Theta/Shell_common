@@ -27,6 +27,7 @@ ufw
 -- sudo ufw allow (port)
 -- sudo ufw allow from xxx.xxx.xxx.xxx to any port 22
 -- sudo ufw deny from 140.115.126.0/24 to any port 22
+參考: https://www.peterdavehello.org/2016/01/ubuntu-based-gnulinux-firewall-ufw-essential-config/
 
 參考權重：
  1 deny
