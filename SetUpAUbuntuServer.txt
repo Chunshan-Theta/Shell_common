@@ -37,6 +37,7 @@ ufw
 -- // 22->ssh 
 -- // 21->FTP 
 -- // 10000->webmin
+-- // 3000 -> node.js express
 
 ssh
 -- sudo apt-get install openssh-server
