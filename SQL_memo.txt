@@ -1,0 +1,9 @@
+使用 PHPMyadmin 載入檔案時，若檔案太大，就會執行失敗。
+ 
+1.修改 my.cnf  
+將 max_allowed_packet 的限制升高
+max_allowed_packet = 16M
+ 
+2.修改 php.ini 下列兩個限制
+upload_max_filesize = 16M  //上傳檔案的上限
+post_max_size = 16M     //傳送資料的上限
