@@ -1,3 +1,7 @@
+
+
+--- link: https://dotblogs.com.tw/suehilary/2011/10/24/46170
+
 使用 PHPMyadmin 載入檔案時，若檔案太大，就會執行失敗。
  
 1.修改 my.cnf  
