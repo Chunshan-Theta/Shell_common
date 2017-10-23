@@ -39,6 +39,7 @@ ufw
 -- // 10000->webmin
 -- // 3000 -> node.js express
 -- // 8000 -> Django
+
 ssh
 -- sudo apt-get install openssh-server
 -- sudo apt install lftp
