@@ -48,8 +48,15 @@ ssh
 Webmin
 -- wget http://prdownloads.sourceforge.net/webadmin/webmin_1.850_all.deb
 -- sudo dpkg --install webmin_1.850_all.deb
--- 更改/etc/webmin/miniserv.conf. port=8888
+-- 更改Port:  修改設定檔 /etc/webmin/miniserv.conf. port=8888
 
+Django
+-- sudo apt install python-pip
+-- sudo pip install Django
+
+node.js
+
+-- sudo apt install npm 
 
 **Desktop version--
 install Google Chrome:
