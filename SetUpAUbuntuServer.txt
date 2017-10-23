@@ -58,6 +58,12 @@ install Google Chrome:
 -- sudo dpkg -i google-chrome*.deb
 -- sudo apt-get install -f
 
+install teamview
+-- sudo dpkg -i teamview.deb 
+-- udo apt install -f
+
+
+
 
 -------
 If you get Error:
